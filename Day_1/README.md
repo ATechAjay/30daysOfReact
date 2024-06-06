@@ -52,7 +52,7 @@ React is a JavaScript library for building user interfaces. It helps developers 
 
 2. **Component-Based:** React components are written in JavaScript. You build small, reusable components that manage their state. These components can be combined to create complex user interfaces.
 
-# What does imperative and declarative code look like?
+# How does imperative and declarative code look like?
 
 **Imperative code:**
 
