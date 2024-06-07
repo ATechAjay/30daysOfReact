@@ -9,3 +9,15 @@
 - [ What is React?](./Day_1/README.md#what-is-react)
 
 - [ How does imperative and declarative code look like?](./Day_1/README.md#how-does-imperative-and-declarative-code-look-like)
+
+- [ What problems does React solve?](./Day_1/README.md#what-problems-does-react-solve)
+
+- [ How many ways are there to add React to a JS project?](./Day_1/README.md#how-many-ways-are-there-to-add-react-to-a-javascript-project)
+
+- [ What is Babel, and why is it essential these days?](./Day_1/README.md#what-is-babel-and-why-is-it-essential-these-days)
+
+- [ What is JSX?](./Day_1/README.md#what-is-jsx)
+
+---
+
+# Day 2:
