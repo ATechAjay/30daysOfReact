@@ -212,21 +212,18 @@ const element = <h1>Hello, world!</h1>;
 
 In JSX, you can't return multiple sibling elements without wrapping them in a single parent element. This is because JavaScript functions and expressions can only return one value. You can resolve this issue using an `array` or `React fragments`.
 
-     ```js
-     // Using React Fragment
-     return (
-       <>
-         <h1>Title</h1>
-         <p>Description</p>
-       </>
-     );
+```js
+// Using React Fragment
+return (
+  <>
+    <h1>Title</h1>
+    <p>Description</p>
+  </>
+);
 
-     // Using Array
-     return [
-       <h1 key="1">Title</h1>,
-       <p key="2">Description</p>
-     ];
-     ```
+// Using Array
+return [<h1 key="1">Title</h1>, <p key="2">Description</p>];
+```
 
 2. **Attributes are Written in camelCase:**
 
