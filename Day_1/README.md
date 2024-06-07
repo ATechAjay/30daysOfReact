@@ -72,7 +72,7 @@ In the above example, you manually create a new list item `<li>`, set its text c
 
 Declarative programming is a style of programming where you describe what you want to achieve without explicitly listing the steps. You define the desired outcome, and the underlying system handles the details.
 
-```jsx
+```js
 // Declarative approach
 
 // Other code goes here...
@@ -202,7 +202,7 @@ The React team developed JSX to make it easier to create and visualize the struc
 
 JSX is an extension of JavaScript syntax, meaning it adds some extra features to JavaScript to make writing UI elements simpler.
 
-```jsx
+```js
 const element = <h1>Hello, world!</h1>;
 ```
 
@@ -212,27 +212,24 @@ const element = <h1>Hello, world!</h1>;
 
 In JSX, you can't return multiple sibling elements without wrapping them in a single parent element. This is because JavaScript functions and expressions can only return one value. You can resolve this issue using an `array` or `React fragments`.
 
-     ```jsx
-     // Using React Fragment
-     return (
-       <>
-         <h1>Title</h1>
-         <p>Description</p>
-       </>
-     );
+```js
+// Using React Fragment
+return (
+  <>
+    <h1>Title</h1>
+    <p>Description</p>
+  </>
+);
 
-     // Using Array
-     return [
-       <h1 key="1">Title</h1>,
-       <p key="2">Description</p>
-     ];
-     ```
+// Using Array
+return [<h1 key="1">Title</h1>, <p key="2">Description</p>];
+```
 
 2. **Attributes are Written in camelCase:**
 
 In JSX, attribute names should be written in `camelCase`, just like JavaScript properties. For example, `class` becomes `className`, and `onclick` becomes `onClick`.
 
-```jsx
+```js
 // Other code goes here...
 const element = (
   <button className="my-button" onClick={handleClick}>
@@ -245,7 +242,7 @@ const element = (
 
 Tags that don't have children can be self-closed. For instance, `<img />` instead of `<img></img>`.
 
-```jsx
+```js
 // Should be self-closed
 const image = <img src="image.jpg" alt="Example" />;
 ```
@@ -254,7 +251,7 @@ const image = <img src="image.jpg" alt="Example" />;
 
 You can embed JavaScript `expressions` in JSX by wrapping them in curly braces `{}`. This is useful for dynamic values.
 
-```jsx
+```js
 const name = "John";
 const element = <h1>Hello, {name}!</h1>;
 ```
